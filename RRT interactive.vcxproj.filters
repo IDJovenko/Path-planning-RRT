@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="GraphicObjects">
+      <UniqueIdentifier>{42716526-d556-4738-bcbf-aff83ed927e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicObjects\Figure">
+      <UniqueIdentifier>{c1188baa-712b-46e9-9371-a3ac77a20184}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicObjects\Figure\Rectangle">
+      <UniqueIdentifier>{d7ffd3ac-db74-4ec1-a457-a861ba0dbf0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicObjects\Figure\Circle">
+      <UniqueIdentifier>{bdb9b62e-ab35-4436-b7c1-a65d35d6f4e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicObjects\Figure\Filled Interface">
+      <UniqueIdentifier>{08258a83-605b-49d1-9cd5-a8ddaf44a834}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Containers">
+      <UniqueIdentifier>{12cc3781-17a0-42de-bb15-89ee9574546f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Containers\Tree">
+      <UniqueIdentifier>{1662b65a-b6c5-4e2a-a9b5-ca6d8421a49d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RRT algorithm">
+      <UniqueIdentifier>{46042588-8dd4-4c3f-91ad-d1e8c3d48016}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vector Math">
+      <UniqueIdentifier>{3a49d36f-9732-44a0-9440-b100e3cba15b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SoftwereDefenition.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicObjects\Figures\Figure.h">
+      <Filter>GraphicObjects\Figure</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicObjects\Figures\Rectangle\FilledRectangle.h">
+      <Filter>GraphicObjects\Figure\Rectangle</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicObjects\Figures\Rectangle\Rectangle.h">
+      <Filter>GraphicObjects\Figure\Rectangle</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicObjects\Figures\Circle\Circle.h">
+      <Filter>GraphicObjects\Figure\Circle</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicObjects\Figures\Filled.h">
+      <Filter>GraphicObjects\Figure\Filled Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Containers\Set.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Containers\Tree\Tree.h">
+      <Filter>Containers\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicObjects\Obstacle.h">
+      <Filter>GraphicObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorMath\vector_math.h">
+      <Filter>Vector Math</Filter>
+    </ClInclude>
+    <ClInclude Include="RRT algorithm\RRT.h">
+      <Filter>RRT algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="build_config.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicObjects\Figures\Rectangle\RectObstacle.h">
+      <Filter>GraphicObjects\Figure\Rectangle</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="RRT interactive.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicObjects\Figures\Rectangle\FilledRectangle.cpp">
+      <Filter>GraphicObjects\Figure\Rectangle</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicObjects\Figures\Rectangle\Rectangle.cpp">
+      <Filter>GraphicObjects\Figure\Rectangle</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicObjects\Figures\Circle\Circle.cpp">
+      <Filter>GraphicObjects\Figure\Circle</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicObjects\Figures\Filled.cpp">
+      <Filter>GraphicObjects\Figure\Filled Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Containers\Tree\Tree.cpp">
+      <Filter>Containers\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="VectorMath\vector_math.cpp">
+      <Filter>Vector Math</Filter>
+    </ClCompile>
+    <ClCompile Include="RRT algorithm\RRT.cpp">
+      <Filter>RRT algorithm</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="RRT interactive.rc">
+      <Filter>Файлы ресурсов</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="RRT interactive.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
