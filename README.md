@@ -11,4 +11,5 @@ Key Features:
   Visual Feedback: The visualization module employs color-coded visual cues, allowing users to distinguish between the obstacles, the randomly sampled points, the tree nodes, and the final path. This visual feedback aids in comprehending the workings of the RRT algorithm effectively.
   
   Overall, this public GitHub repository offers an immersive interactive experience, helping users understand and visualize the RRT pathfinding algorithm's workings on Windows OS. By exploring the project and experimenting with the customizable parameters, users can enhance their understanding of motion planning algorithms while enjoying the engaging visualization.
-  
+
+The program was developed in the Visual Studio environment.
