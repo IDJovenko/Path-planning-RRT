@@ -2,6 +2,11 @@
 ## Description
   This public repository serves to showcase an interactive Windows OS application demonstrating the operation of the widely-used RRT (Rapidly-exploring Random Tree) pathfinding algorithm. The RRT algorithm is a popular method employed in robotics, motion planning, and autonomous navigation systems.
 
+<p align="center">
+    <img src="resources/screenshot1.jpg" width="45%" />
+    &nbsp&nbsp&nbsp
+    <img src="resources/screenshot6.jpg" width="45%" />
+</p>
 
 ## Key Features:
 
