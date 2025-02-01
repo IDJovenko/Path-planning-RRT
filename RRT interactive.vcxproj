@@ -142,36 +142,37 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="build_config.h" />
-    <ClInclude Include="GraphicObjects\Figures\Circle\Circle.h" />
-    <ClInclude Include="GraphicObjects\Figures\Figure.h" />
-    <ClInclude Include="GraphicObjects\Figures\Filled.h" />
-    <ClInclude Include="GraphicObjects\Figures\Rectangle\FilledRectangle.h" />
-    <ClInclude Include="GraphicObjects\Obstacle.h" />
-    <ClInclude Include="GraphicObjects\Figures\Rectangle\Rectangle.h" />
-    <ClInclude Include="GraphicObjects\Figures\Rectangle\RectObstacle.h" />
-    <ClInclude Include="RRT algorithm\RRT.h" />
-    <ClInclude Include="Containers\Set.h" />
-    <ClInclude Include="SoftwereDefenition.h" />
-    <ClInclude Include="Containers\Tree\Tree.h" />
-    <ClInclude Include="VectorMath\vector_math.h" />
+    <ClInclude Include="include\Common\build_config.h" />
+
+    <ClInclude Include="include\GraphicObjects\Circle.h" />
+    <ClInclude Include="include\GraphicObjects\Figure.h" />
+    <ClInclude Include="include\GraphicObjects\Filled.h" />
+    <ClInclude Include="include\GraphicObjects\FilledRectangle.h" />
+    <ClInclude Include="include\GraphicObjects\Obstacle.h" />
+    <ClInclude Include="include\GraphicObjects\Rectangle.h" />
+    <ClInclude Include="include\GraphicObjects\RectObstacle.h" />
+    <ClInclude Include="include\RRT\RRT.h" />
+    <ClInclude Include="include\Containers\Set.h" />
+    <ClInclude Include="include\Common\SoftwareDefenition.h" />
+    <ClInclude Include="include\Containers\Tree.h" />
+    <ClInclude Include="include\VectorMath\vector_math.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="GraphicObjects\Figures\Circle\Circle.cpp" />
-    <ClCompile Include="GraphicObjects\Figures\Filled.cpp" />
-    <ClCompile Include="GraphicObjects\Figures\Rectangle\FilledRectangle.cpp" />
-    <ClCompile Include="GraphicObjects\Figures\Rectangle\Rectangle.cpp" />
-    <ClCompile Include="RRT interactive.cpp" />
-    <ClCompile Include="RRT algorithm\RRT.cpp" />
-    <ClCompile Include="Containers\Tree\Tree.cpp" />
-    <ClCompile Include="VectorMath\vector_math.cpp" />
+    <ClCompile Include="src\GraphicObjects\Circle.cpp" />
+    <ClCompile Include="src\GraphicObjects\Filled.cpp" />
+    <ClCompile Include="src\GraphicObjects\FilledRectangle.cpp" />
+    <ClCompile Include="src\GraphicObjects\Rectangle.cpp" />
+    <ClCompile Include="src\RRT interactive.cpp" />
+    <ClCompile Include="src\RRT\RRT.cpp" />
+    <ClCompile Include="src\Containers\Tree.cpp" />
+    <ClCompile Include="src\VectorMath\vector_math.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="RRT interactive.rc" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="RRT interactive.ico" />
-    <Image Include="small.ico" />
+    <Image Include="resources\RRT interactive.ico" />
+    <Image Include="resources\small.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

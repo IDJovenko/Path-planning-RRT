@@ -1,7 +1,7 @@
 #pragma once
 #include "FilledRectangle.h"
-#include "../../Obstacle.h"
-#include "../../../VectorMath/vector_math.h"
+#include "Obstacle.h"
+#include "../VectorMath/vector_math.h"
 
 #include <vector>
 

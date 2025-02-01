@@ -1,5 +1,5 @@
 #pragma once
-#include "Circle.h"
+#include "../../include/GraphicObjects/Circle.h"
 
 bool Circle::is_suit(POINT center, double diameter) const
 {

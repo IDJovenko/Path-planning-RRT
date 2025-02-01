@@ -1,7 +1,7 @@
 #pragma once
-#include "../build_config.h"
+#include "../Common/build_config.h"
 
-#include "../Containers/Tree/Tree.h"
+#include "../Containers/Tree.h"
 #include "../Containers/Set.h"
 #include "../GraphicObjects/Obstacle.h"
 #include "../VectorMath/vector_math.h"

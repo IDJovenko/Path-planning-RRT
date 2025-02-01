@@ -1,5 +1,5 @@
 #pragma once
-#include "Rectangle.h"
+#include "../../include/GraphicObjects/Rectangle.h"
 #include <cmath>
 
 // TODO: add ability to set line style

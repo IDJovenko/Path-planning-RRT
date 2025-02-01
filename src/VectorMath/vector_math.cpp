@@ -1,4 +1,4 @@
-#include "vector_math.h"
+#include "../../include/VectorMath/vector_math.h"
 
 #ifndef EPS
 #define EPS 1.0e-06

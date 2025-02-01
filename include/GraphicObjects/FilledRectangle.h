@@ -1,7 +1,7 @@
 #pragma once
-#include "../../../include.h"
+#include "../Common/include.h"
 #include "Rectangle.h"
-#include "../Filled.h"
+#include "Filled.h"
 class FilledRectangle: public Rectangle, public Filled 
 {
 public:

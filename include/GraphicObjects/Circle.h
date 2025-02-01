@@ -1,6 +1,6 @@
 #pragma once
-#include "../../../include.h"
-#include "../Figure.h"
+#include "../Common/include.h"
+#include "Figure.h"
 class Circle : public Figure
 {
 protected:

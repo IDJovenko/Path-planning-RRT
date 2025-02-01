@@ -1,5 +1,5 @@
 #pragma once
-#include "FilledRectangle.h"
+#include "../../include/GraphicObjects/FilledRectangle.h"
 
 void FilledRectangle::draw(HDC &hdc) const
 {

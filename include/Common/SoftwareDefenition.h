@@ -4,12 +4,12 @@
 name='Microsoft.Windows.Common-Controls' version='6.0.0.0' \
 processorArchitecture='*' publicKeyToken='6595b64144ccf1df' language='*'\"")
 
-#include "GraphicObjects/Figures/Circle/Circle.h"
-#include "GraphicObjects/Figures/Rectangle/Rectangle.h"
-#include "GraphicObjects/Figures/Rectangle/RectObstacle.h"
-#include "GraphicObjects/Figures/Rectangle/FilledRectangle.h"
-#include "Containers/Set.h"
-#include "RRT algorithm/RRT.h"
+#include "../GraphicObjects/Circle.h"
+#include "../GraphicObjects/Rectangle.h"
+#include "../GraphicObjects/RectObstacle.h"
+#include "../GraphicObjects/FilledRectangle.h"
+#include "../Containers/Set.h"
+#include "../RRT/RRT.h"
 #include <memory>
 #include <vector>
 

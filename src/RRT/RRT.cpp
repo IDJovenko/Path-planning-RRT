@@ -1,5 +1,5 @@
 #pragma once
-#include "RRT.h"
+#include "../../include/RRT/RRT.h"
 #include <stdexcept>
 
 const std::pair<long, long> RRT::NullCnfg = { -1,-1 };
